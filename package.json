@@ -1,0 +1,26 @@
+{
+  "name": "broccoli-shell",
+  "version": "0.0.1",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ilikebits/broccoli-shell.git"
+  },
+  "scripts": {
+    "prepublish": "coffee -c index.coffee"
+  },
+  "keywords": [
+    "broccoli",
+    "broccoli-plugin",
+    "shell",
+    "exec"
+  ],
+  "dependencies": {
+    "bluebird": "^3.4.0",
+    "broccoli-plugin": "^1.2.1",
+    "shelljs": "^0.7.0"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.10.0"
+  }
+}
